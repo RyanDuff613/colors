@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  
-  $(".hidden").click(function() {
-    $(".shown").show();
+
+  $(".shown").click(function() {
+    $(".hidden").show();
   });
 
   $("button#green").click(function() {
@@ -19,14 +19,14 @@ $(document).ready(function() {
     $("body").addClass("red-background");
   });
 
-  $("span#clickable").click(function() {
-    $("body").removeClass();
-    $("body").addClass("darkBackground");
+  $("#clickable").click(function() {
+    $("body").removeClass("red-background green-background yellow-background");
+    $("body").toggleClass("darkBackground");
   });
 
-  $("span#clickable").click(function(){
-    $("body").removeClass();
-    $("body").addClass("lightBackground");
-  });
+  // $(".shown#clickable").click(function(){
+  //   $("body").removeClass();
+  //   $("body").addClass("lightBackground");
+  // });
 
 });

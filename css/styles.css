@@ -18,9 +18,9 @@
   background-color: white;
 }
 
-.hidden {
+/* .hidden {
   display: none;
-}
+} */
 
 #clickable {
   cursor: pointer;
