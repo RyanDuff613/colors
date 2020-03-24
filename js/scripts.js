@@ -1,9 +1,5 @@
 $(document).ready(function() {
 
-  $(".clickable").click(function() {
-  
-  });
-
   $("button#green").click(function() {
     $("body").removeClass();
     $("body").addClass("green-background");
@@ -19,7 +15,10 @@ $(document).ready(function() {
     $("body").addClass("red-background");
   });
 
-
+  $("span#clickable").click(function() {
+    $("body").removeClass();
+    $("body").addClass("light-dark-showing");
+  });
 
 
 });
