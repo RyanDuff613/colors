@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  
+  $(".hidden").click(function() {
+    $(".shown").show();
+  });
 
   $("button#green").click(function() {
     $("body").removeClass();
@@ -17,8 +21,12 @@ $(document).ready(function() {
 
   $("span#clickable").click(function() {
     $("body").removeClass();
-    $("body").addClass("light-dark-showing");
+    $("body").addClass("darkBackground");
   });
 
+  $("span#clickable").click(function(){
+    $("body").removeClass();
+    $("body").addClass("lightBackground");
+  });
 
 });

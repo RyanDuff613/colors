@@ -10,12 +10,16 @@
   background-color: red;
 }
 
-.light-dark-showing {
+.darkBackground {
   background-color: darkgrey;
 }
 
-.light-dark-hidden {
+.whiteBackground {
   background-color: white;
+}
+
+.hidden {
+  display: none;
 }
 
 #clickable {
